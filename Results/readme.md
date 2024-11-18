@@ -1,5 +1,5 @@
 
-## Effect of Dataset Size (VGG16 - SVH)
+## Table A: Effect of Dataset Size (VGG16 - SVH)
 | # of ins.     | D_f ACC.  | D_r ACC   | MIA       |
 | :------       | :------   |:------    | :------   |
 | 100           | 95.41     | 90.84     | 96.50     |
@@ -9,7 +9,7 @@
 | 1000          | 00.00     | 89.67     | 1.03      |
 | 2000          | 52.30     | 91.23     | 19.44     |
 
-## Effect of Dataset Size (ALLCNN SVH)
+##  Table B: Effect of Dataset Size (ALLCNN SVH)
 | # of ins.  | D_f ACC.     | D_r ACC   | MIA           |
 | :------    | :------      | :------   | :------       |
 | 100        | 83.38        | 88.81     | 78.94         |
@@ -21,7 +21,7 @@
 
 
 
-## Effect of Learning Rate: zMuGAN  (ALLCNN - SVHN) 
+## Table C: Effect of Learning Rate: zMuGAN  (ALLCNN - SVHN) 
 | $LR$     | D_f Acc. | D_r Acc. | MIA   |
 | :-----   | :-----   | :-----   |:----- |
 | 1.00E-08 | 73.45    | 80.48    | 71.38 |
@@ -33,7 +33,7 @@
 | 1.00E-02 | 00.00    | 15.20    | 33.48 |
 | 1.00E-01 | 00.00    | 10.91    | 77.28 |
 
-## Effect of Learning Rate: zMuGAN   (VGG16 - SVHN)
+## Table D: Effect of Learning Rate: zMuGAN   (VGG16 - SVHN)
 |$LR$       | D_f Acc.  | D_r Acc.  | MIA       |
 | :-----    | :-----    | :-----    |:-----     |
 |1.00E-08   | 92.60     | 89.80     | 93.23     |
@@ -47,7 +47,7 @@
 
 
 
-## Unlearning Experiments using ResNet9 on SVHN Dataset
+## Table E: Unlearning Experiments using ResNet9 on SVHN Dataset
 
 |           | D_f Acc.  | D_r Acc.  | MIA       |
 |:----------|:----      | :-----    | 	:------ |
@@ -60,7 +60,7 @@ ZMUGAN      |  0.214	| 0.689     |	0.17    |
 
 
 
-## Unlearning Experiments using AllCNN on CIFAR100 Dataset (Class 82)
+## Table F: Unlearning Experiments using AllCNN on CIFAR100 Dataset (Class 82)
 
 |           | D_f Acc.  | D_r Acc.  | MIA       |
 |:----------|:----      |:-----     |:------    |
